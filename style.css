@@ -3,7 +3,8 @@ box-sizing: border-box;
 }
 
 html {
-  background-color: rgba(3, 163, 223, 1);
+  background-color: rgba(27, 68, 127, .25);
+  font-family: "Arial", sans-serif, "Muli";
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 header {
   display: flex;
   background-color: rgba(27, 68, 127, 1);
-  padding-left: 1em;
+  padding: 1em 1em;
 }
 
 header address {
@@ -26,18 +27,22 @@ header address {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: gold;
 }
 
 /* Top Navigation Bar */
 .topnav {
   display: flex;
+  background-color: rgba(27, 68, 127, .25);
+  border-top: 2px solid rgba(236, 183, 34, 1);
 }
 
 .topnav h2:nth-child(1) {
   margin-right: auto;
+  padding-left: 1em;
 }
 
 .topnav h2:nth-child(3) {
   margin-left: auto;
+  padding-right: 1em;
 }
