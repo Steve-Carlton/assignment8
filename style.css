@@ -1,0 +1,43 @@
+*{
+box-sizing: border-box;
+}
+
+html {
+  background-color: rgba(3, 163, 223, 1);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: rgba(27, 68, 127, 1);
+  padding-left: 1em;
+}
+
+header address {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1em;
+}
+
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Top Navigation Bar */
+.topnav {
+  display: flex;
+}
+
+.topnav h2:nth-child(1) {
+  margin-right: auto;
+}
+
+.topnav h2:nth-child(3) {
+  margin-left: auto;
+}
