@@ -24,10 +24,9 @@ header address {
   margin-right: 1em;
 }
 
-
 a {
   text-decoration: none;
-  color: gold;
+  color: darkgreen;
 }
 
 /* Top Navigation Bar */
@@ -45,4 +44,21 @@ a {
 .topnav h2:nth-child(3) {
   margin-left: auto;
   padding-right: 1em;
+}
+
+/* Main Section */
+
+main {
+  display: grid;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.section1 {
+ margin-left: 2em;
+}
+
+.section2 {
+  grid-column-start: 2;
+  margin-right: 2em;
 }
