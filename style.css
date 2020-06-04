@@ -14,14 +14,14 @@ body {
 header {
   display: flex;
   background-color: rgba(27, 68, 127, 1);
-  padding: 1em 1em;
+  padding: 1rem 1rem;
 }
 
 header address {
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 a {
@@ -34,31 +34,44 @@ a {
   display: flex;
   background-color: rgba(27, 68, 127, .25);
   border-top: 2px solid rgba(236, 183, 34, 1);
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .topnav h2:nth-child(1) {
-  margin-right: auto;
-  padding-left: 1em;
+  margin-right: 2rem;
+  padding-left: 2rem;
 }
 
 .topnav h2:nth-child(3) {
-  margin-left: auto;
-  padding-right: 1em;
+  margin-left: 2rem;
+  padding-right: 2rem;
 }
+
 
 /* Main Section */
 
 main {
   display: grid;
-  padding-top: 1em;
-  padding-bottom: 2em;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .section1 {
- margin-left: 2em;
+ margin-left: 4rem;
 }
 
 .section2 {
   grid-column-start: 2;
-  margin-right: 2em;
+  margin-right: 2rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgba(68, 68, 68, 1);
+  background-image: url(images/footerImage.jpg);
+  text-align: center;
+  color: rgba(255, 255, 255, .75);
+  padding: 2rem;
 }
