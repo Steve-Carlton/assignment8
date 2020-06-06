@@ -90,7 +90,7 @@ footer a:hover {
   text-align: center;
   font-weight: 700;
   font-size: 4rem;
-  margin: 1rem;
+  margin: 1rem 0rem;
   background-color: rgba(27, 68, 127, 1);
   border-radius: 10px;
 }
