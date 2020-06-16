@@ -63,24 +63,24 @@ footer a:hover {
   flex-wrap: wrap;
 }
 
-.topnav h2 {
-  color: rgba(236, 183, 34, 1);
-  padding: 1rem;
-  background-color: rgba(27, 68, 127, 1);
+.topnav a {
   border-radius: 10px;
-}
-
-.topnav h2:nth-child(1) {
-  margin-right: 2rem;
-  margin-left: 2rem;
+  background-color: rgba(27, 68, 127, 1);
   padding: 1rem;
+  margin: 1.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
-.topnav h2:nth-child(3) {
+.topnav a:nth-of-type(1) {
+  color: rgba(236, 183, 34, 1);
+}
+
+.topnav:nth-child(3) {
   margin-left: 2rem;
 }
 
-.topnav h2 a:hover {
+.topnav a:hover {
   color: rgba(236, 183, 34, 1);
 }
 
@@ -92,18 +92,24 @@ footer a:hover {
 }
 
 .welcome {
-  font-family: "Dancing Script", serif;
   text-align: center;
-  font-weight: 700;
-  font-size: 4rem;
-  margin: 1rem 0rem;
   background-color: rgba(27, 68, 127, 1);
   border-radius: 10px;
+  padding: .5rem
+
 }
 
 .welcome a {
   color: rgba(236, 183, 34, 1);
   text-decoration: none;
+  font-family: "Dancing Script", serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: auto;
+  background-color: rgba(27, 68, 127, 1);
+  border-radius: 10px;
+  padding: .5rem 15%;
 }
 
 main {
