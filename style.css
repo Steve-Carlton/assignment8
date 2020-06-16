@@ -24,6 +24,7 @@ header address {
   margin-bottom: auto;
   margin-right: 1rem;
   color: rgba(100, 150, 200, 1);
+  color: rgba(236, 183, 34, 1);
 }
 
 a {
@@ -31,7 +32,12 @@ a {
   color: rgba(3, 163, 223, 1);
 }
 
-header a, footer a {
+header a {
+  color: rgba(236, 183, 34, 1);
+  text-decoration: none;
+}
+
+footer a {
   color: rgba(3, 163, 223, 1);
 }
 
@@ -41,7 +47,7 @@ a:hover {
 }
 
 header a:hover {
-  color: rgba(0, 175, 223, 1);
+  color: rgba(236, 183, 34, 1);
 }
 
 footer a:hover {
