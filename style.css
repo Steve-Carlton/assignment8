@@ -92,7 +92,6 @@ footer a:hover {
   background-color: rgba(27, 68, 127, 1);
   border-radius: 10px;
   padding: .5rem
-
 }
 
 .welcome a {
@@ -172,7 +171,6 @@ footer h6 {
   border-radius: 10px;
   font-size: 1.5rem;
   padding: .5rem 2rem;
-
 }
 
 .sr-only:focus {
@@ -184,5 +182,4 @@ footer h6 {
   border-radius: 10px;
   font-size: 1.5rem;
   padding: .5rem 2rem;
-
 }
