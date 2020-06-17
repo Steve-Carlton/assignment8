@@ -76,10 +76,6 @@ footer a:hover {
   color: rgba(236, 183, 34, 1);
 }
 
-.topnav:nth-child(3) {
-  margin-left: 2rem;
-}
-
 .topnav a:hover {
   color: rgba(236, 183, 34, 1);
 }
@@ -165,4 +161,28 @@ footer {
 
 footer h6 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.sr-only, .sr-only:hover {
+  position: absolute;
+  left: -10000px;
+  color: rgba(236, 183, 34, 1);
+  background-color: rgba(27, 68, 127, 1);
+  border: 2px solid rgba(100, 150, 200, 1);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: .5rem 2rem;
+
+}
+
+.sr-only:focus {
+  position: absolute;
+  left: auto;
+  color: rgba(236, 183, 34, 1);
+  background-color: rgba(27, 68, 127, 1);
+  border: 2px solid rgba(100, 150, 200, 1);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: .5rem 2rem;
+
 }
